@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Heart className="h-8 w-8 text-rose-600" />
+          <img src="src\Assets\MAF_logo.jpg" alt="Maheshwari Action Forum Logo" className="h-10 w-10" />
             <span className="ml-2 text-xl font-bold text-gray-800">Maheshwari Action Forum</span>
           </div>
 

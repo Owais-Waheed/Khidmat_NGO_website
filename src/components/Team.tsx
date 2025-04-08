@@ -5,37 +5,70 @@ import { Mail, Phone, Linkedin } from 'lucide-react';
 const teamMembers: TeamMember[] = [
   {
     id: '1',
-    name: 'Dr. Sarah Johnson',
-    role: 'Executive Director',
-    bio: 'With over 15 years of experience in social work and community development, Dr. Johnson leads our initiatives with passion and expertise.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-    contact: {
-      email: 'sarah.j@maf.org',
-      phone: '+1 (555) 123-4567'
-    }
+    name: 'Bhevishh Kumar',
+    role: 'Core Team Member',
+    bio: 'The Strategist: Innovative ideation, strategy, financial estimation, experience & planning made this event possible.',
+    image: './src/Assets/asset_team/Bhevish Kumar.jpg',
+    contact: { email: '' }
   },
   {
     id: '2',
-    name: 'Michael Chen',
-    role: 'Program Director',
-    bio: 'Michael specializes in educational program development and has successfully implemented various community initiatives.',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-    contact: {
-      email: 'michael.c@maf.org'
-    }
+    name: 'Jaint Karmani',
+    role: 'Core Team Member',
+    bio: 'The Allrounder: Available 24/7, physically or virtually. The initiator, planner & executor. Didn’t sleep enough for nights. The MPL was impossible without him',
+    image: './src/Assets/asset_team/Jaint Karmani.jpg',
+    contact: { email: '' }
   },
   {
     id: '3',
-    name: 'Priya Patel',
-    role: 'Community Outreach Manager',
-    bio: 'Priya brings valuable experience in community engagement and has been instrumental in expanding our reach.',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-    contact: {
-      email: 'priya.p@maf.org',
-      phone: '+1 (555) 987-6543'
-    }
+    name: 'Bhunesh Kumar',
+    role: 'Core Team Member',
+    bio: 'The Cricketing mastermind: Franchise model, squads, ground, lighting, execution & cricket with full spirit. Credit goes to one & only, him. The event wouldn’t have been executed, if he was not there',
+    image: './src/Assets/asset_team/Bhunesh Kumar.jpg',
+    contact: { email: '' }
+  },
+  {
+    id: '4',
+    name: 'Sagar Langhani',
+    role: 'Core Team Member',
+    bio: 'The Management Mastermind: The shields, certificates, food for all, the Funland for kids, and proper accommodation to players & audience with smooth execution till the end, would not have been possible without him.',
+    image: './src/Assets/asset_team/Sagar Langhani.jpg',
+    contact: { email: '' }
+  },
+  {
+    id: '5',
+    name: 'Mahaveer Langhani',
+    role: 'Core Team Member',
+    bio: 'The Logistics Mastermind: The PSL-inspired jerseys you saw, the cricketing equipment, or anything team at any time, he was one call away. Truly an asset',
+    image: './src/Assets/asset_team/Mahaveer Langhani.jpg',
+    contact: { email: '' }
+  },
+  {
+    id: '6',
+    name: 'Neeraj Kumar',
+    role: 'Core Team Member',
+    bio: 'The Data Scientist: The smooth registration process, the data collection, management, utilization & execution. He was the man behind the screen, not seen too many, but worked hard than many',
+    image: './src/Assets/asset_team/Neeraj Kumar.jpg',
+    contact: { email: '' }
+  },
+  {
+    id: '7',
+    name: 'Bhawesh Kumar Karmani',
+    role: 'Head of Social Media & Graphics',
+    bio: ' The eye-pleasing graphics you saw on our page, or the live broadcast themes, he kept you truly updated every minute with his art & skills. Truly an asset',
+    image: './src/Assets/asset_team/Bhawesh Karmani.jpg',
+    contact: { email: '' }
+  },
+  {
+    id: '8',
+    name: 'Gavish Vinesh Karmani',
+    role: 'Head of Management',
+    bio: 'Assigning tasks, allotment of resources & skills required for execution. Gavish was the brain behind it. His hard work & passion paid off!',
+    image: './src/Assets/asset_team/Gavish Karmani.jpg',
+    contact: { email: '' }
   }
 ];
+
 
 export default function Team() {
   return (
