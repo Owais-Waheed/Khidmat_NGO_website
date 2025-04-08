@@ -4,27 +4,59 @@ import { ArrowRight, Users, Target, Calendar } from 'lucide-react';
 
 const projects: Project[] = [
   {
-    id: '1',
-    title: 'Community Education Initiative',
-    description: 'Providing quality education to underprivileged children through digital learning platforms and dedicated mentorship programs.',
-    impact: 'Reached 1000+ students across 15 communities',
-    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-    status: 'ongoing'
+    id: '4',
+    title: 'Eid Drive 2025',
+    description: 'Distributed cloths and money at Civil Hospital Karachi, NICH, and other hospitals as a gesture of community gratitude.',
+    impact: 'Supported hundreds of patients and their families during Eid',
+    image: 'src/assets/assets_events/eid_drive_2.jpg',
+    status: 'completed'
   },
   {
-    id: '2',
-    title: 'Healthcare Outreach Program',
-    description: 'Mobile medical camps and health awareness campaigns in rural areas, focusing on preventive healthcare and wellness.',
-    impact: 'Served 5000+ patients in remote locations',
-    image: 'https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-    status: 'ongoing'
+    id: '5',
+    title: 'Project Jal',
+    description: 'Successful installation of the first Solar Water Pump and Tank in New Chorr, Sindh, benefiting over 100 families in Bajeer Mohalla. The pump was inaugurated on 14-07-2024, and MAF provided training to ensure proper use and maintenance.',
+    impact: '100+ families gained access to clean water',
+    image: 'src/assets/assets_events/project_jal_2.jpg',
+    status: 'completed'
   },
   {
-    id: '3',
-    title: 'Women Empowerment Workshop',
-    description: 'Skill development and entrepreneurship training for women, enabling financial independence and community leadership.',
-    impact: 'Empowered 500+ women entrepreneurs',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+    id: '6',
+    title: 'Free Medical Consultation Camp',
+    description: 'In partnership with Tabba Heart Institute, Essa Laboratory, and local organizations, a Medical Consultation Camp was hosted in Karachi on Sunday, June 9th, 2024.',
+    impact: 'Provided free consultations and testing to underserved communities',
+    image: 'src/assets/assets_events/medical_camp_1.jpg',
+    status: 'completed'
+  },
+  {
+    id: '7',
+    title: 'Heatstroke Relief & Awareness Camp',
+    description: 'Held a 5-day Heatstroke Relief Camp at SMBB Trauma Centre, Karachi, serving 10,500 liters of cold water and Rooh Afza.',
+    impact: 'Helped hundreds cope with extreme summer heat',
+    image: 'src/assets/assets_events/heatstroke_2.jpg',
+    status: 'completed'
+  },
+  {
+    id: '8',
+    title: 'Iftar Drive 2024',
+    description: 'Iftar Drive during the month of Ramadan near the Cantt Station, Karachi.',
+    impact: 'Distributed Iftar to hundreds during Ramadan evenings',
+    image: 'src/assets/assets_events/iftar_drive_2.jpg',
+    status: 'completed'
+  },
+  {
+    id: '9',
+    title: 'Community Spirit Podcast Series',
+    description: 'Upcoming podcast series aimed at uplifting community spirit by sharing inspiring stories and voices.',
+    impact: 'To be launched soon — stay tuned!',
+    image: 'src/assets/assets_events/pak_global.jpg',
+    status: 'upcoming'
+  },
+  {
+    id: '10',
+    title: 'Plantation Drive Initiative',
+    description: 'An upcoming environmental initiative focusing on increasing green spaces in urban neighborhoods through community-driven plantation drives.',
+    impact: 'Targeting 1000+ trees across 5 locations',
+    image: 'src/assets/assets_events/plantation_drive1.jpeg',
     status: 'upcoming'
   }
 ];
