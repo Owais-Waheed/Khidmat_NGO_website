@@ -1,41 +1,43 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Mail, Facebook, Instagram } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <div className="relative bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block">Empowering Communities</span>
-                <span className="block text-rose-600">Creating Change</span>
-              </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Join us in our mission to create positive social impact and build a better future for all. Together, we can make a difference.
-              </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#projects"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
-                  >
-                    Our Projects
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </a>
-                </div>
-              </div>
+    <div className="relative bg-white min-h-screen flex items-center py-12">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center w-full px-4 sm:px-6 lg:px-8 gap-12">
+        {/* Text Content */}
+        <div className="lg:w-1/2 w-full">
+          <div className="text-center lg:text-left">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900">
+              <span className="block">Serving Humanity,</span>
+              <span className="block text-rose-600">Strengthening Communities</span>
+            </h1>
+            <p className="mt-6 text-gray-600 text-base sm:text-lg md:text-xl text-justify">
+              Maheshwari Action Forum (MAF) is dedicated to fostering positive change through initiatives in education, healthcare, social support, and disaster relief. With food drives, medical aid, and scholarships, MAF uplifts communities and empowers individuals across Pakistan.
+            </p>
+
+            <div className="mt-8 flex flex-col sm:flex-row sm:justify-start gap-4">
+              <a
+                href="#impact"
+                className="inline-flex items-center justify-center px-8 py-3 bg-rose-600 hover:bg-rose-700 text-white text-base font-medium rounded-md shadow-md transition"
+              >
+                Explore Our Work
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </div>
-          </main>
+
+            
+          </div>
         </div>
-      </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-          alt="Community service"
-        />
+
+        {/* Image Section */}
+        <div className="lg:w-1/2 w-full">
+          <img
+            className="w-full h-96 sm:h-[500px] object-cover rounded-2xl shadow-xl"
+            src="./src/Assets/MAF_cover.png"
+            alt="Maheshwari Action Forum in action"
+          />
+        </div>
       </div>
     </div>
   );

@@ -31,7 +31,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-rose-500" />
-                <a href="mailto:contact@maf.org" className="text-gray-400 hover:text-rose-500">contact@maf.org</a>
+                <a href="mailto:teammaheshwaripak@gmail.com" className="text-gray-400 hover:text-rose-500">teammaheshwaripak@gmail.com</a>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-rose-500" />
@@ -47,11 +47,21 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-rose-500 transition-colors">
-                <Instagram className="h-6 w-6" />
+            <a
+                href="https://www.instagram.com/maheshwariactionforum/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-6 w-6 text-rose-600 hover:text-rose-800 transition" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-rose-500 transition-colors">
-                <Facebook className="h-6 w-6" />
+              <a
+                href="https://www.facebook.com/profile.php?id=100091449397418"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-6 w-6 text-rose-600 hover:text-rose-800 transition" />
               </a>
             </div>
           </div>
@@ -64,3 +74,26 @@ export default function Footer() {
     </footer>
   );
 }
+
+{/* Social Links
+            <div className="mt-6 flex justify-center lg:justify-start space-x-6">
+              <a href="mailto:teammaheshwaripak@gmail.com" aria-label="Email">
+                <Mail className="h-6 w-6 text-rose-600 hover:text-rose-800 transition" />
+              </a>
+              <a
+                href="https://www.instagram.com/maheshwariactionforum/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-6 w-6 text-rose-600 hover:text-rose-800 transition" />
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100091449397418"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-6 w-6 text-rose-600 hover:text-rose-800 transition" />
+              </a>
+            </div> */}
