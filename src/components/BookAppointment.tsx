@@ -8,19 +8,39 @@ export default function BookAppointment() {
     date: '',
     time: '',
     teamMember: '',
-    purpose: ''
+    purpose: '',
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
+
+    const { name, email, date, time, teamMember, purpose } = formData;
+
+    const startDateTime = new Date(`${date}T${time}`);
+    const endDateTime = new Date(startDateTime.getTime() + 30 * 60000); // 30 min meeting
+
+    const formatDateTime = (dt: Date) =>
+      dt.toISOString().replace(/-|:|\.\d\d\d/g, '').slice(0, -1);
+
+    const calendarUrl = `https://calendar.google.com/calendar/u/0/r/eventedit?text=Appointment+with+${encodeURIComponent(
+      name
+    )}&dates=${formatDateTime(startDateTime)}/${formatDateTime(
+      endDateTime
+    )}&details=${encodeURIComponent(
+      `Purpose: ${purpose}\nWith: ${teamMember}\nEmail: ${email}`
+    )}&location=Online&add=teammaheshwaripak@gmail.com`;
+
+    window.open(calendarUrl, '_blank');
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+    >
+  ) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -28,9 +48,12 @@ export default function BookAppointment() {
     <section id="book" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Book an Appointment</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Book an Appointment
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Schedule a meeting with our team members to discuss potential collaborations and initiatives.
+            Schedule a meeting with our team members to discuss potential
+            collaborations and initiatives.
           </p>
         </div>
 
@@ -116,9 +139,9 @@ export default function BookAppointment() {
                       required
                     >
                       <option value="">Select a team member</option>
-                      <option value="sarah">Dr. Sarah Johnson</option>
-                      <option value="michael">Michael Chen</option>
-                      <option value="priya">Priya Patel</option>
+                      <option value="Bhevish Kumar">Bhevish Kumar</option>
+                      <option value="Jaint Karmani">Jaint Karmani</option>
+                      <option value="Bhunesh Kumar">Bhunesh Kumar</option>
                     </select>
                   </div>
                 </div>
@@ -147,6 +170,12 @@ export default function BookAppointment() {
                   >
                     Schedule Appointment
                   </button>
+                  <a
+                    href="mailto:teammaheshwaripak@gmail.com"
+                    className="text-rose-600 hover:underline text-sm mt-4 block text-center"
+                  >
+                    Prefer to email us directly?
+                  </a>
                 </div>
               </form>
             </div>

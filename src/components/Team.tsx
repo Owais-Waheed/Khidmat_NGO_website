@@ -5,7 +5,7 @@ import { Mail, Phone, Linkedin } from 'lucide-react';
 const teamMembers: TeamMember[] = [
   {
     id: '1',
-    name: 'Bhevishh Kumar',
+    name: 'Bhevish Kumar',
     role: 'Core Team Member',
     bio: 'The Strategist: Innovative ideation, strategy, financial estimation, experience & planning made this event possible.',
     image: './src/Assets/asset_team/Bhevish Kumar.jpg',
