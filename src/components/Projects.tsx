@@ -45,6 +45,14 @@ const projects: Project[] = [
   },
   {
     id: '9',
+    title: 'Teacher Training Workshop: Countering Stereotypes Through Education',
+    description: 'On January 25, 2025, Maheshwari Action Forum organized a workshop at Government Girls Secondary School, Shah Faisal, Karachi, to promote tolerance, diversity, and social cohesion.',
+    impact: 'Empowered teachers with inclusive education strategies',
+    image: 'src/assets/assets_events/Workshop.jpg',
+    status: 'completed'
+  },
+  {
+    id: '10',
     title: 'Community Spirit Podcast Series',
     description: 'Upcoming podcast series aimed at uplifting community spirit by sharing inspiring stories and voices.',
     impact: 'To be launched soon — stay tuned!',
@@ -52,7 +60,7 @@ const projects: Project[] = [
     status: 'upcoming'
   },
   {
-    id: '10',
+    id: '11',
     title: 'Plantation Drive Initiative',
     description: 'An upcoming environmental initiative focusing on increasing green spaces in urban neighborhoods through community-driven plantation drives.',
     impact: 'Targeting 1000+ trees across 5 locations',
