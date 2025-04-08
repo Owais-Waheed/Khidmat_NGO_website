@@ -5,38 +5,68 @@ import { Calendar, Filter, Search } from 'lucide-react';
 const events: Event[] = [
   {
     id: '1',
-    title: 'Annual Community Health Camp',
-    date: '2024-04-15',
-    description: 'Free health checkups, consultations, and medicine distribution for underprivileged communities.',
+    title: 'Eid Drive 2025',
+    date: '2025-04-01',
+    description: 'Distributed cloths and money at civil hospital Karachi, NICH, and other hospitals as a gratitude of the community service.',
     images: [
-      'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-      'https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'
+      './src/Assets/assets_events/eid_drive_1.jpg',
+      './src/Assets/assets_events/eid_drive_2.jpg',
+      './src/Assets/assets_events/eid_drive_3.jpg',
+    ],
+    category: 'Community Service'
+  },
+  {
+    id: '2',
+    title: 'Project Jal',
+    date: '2024-07-14',
+    description: 'Successful installation of the first Solar Water Pump and Tank in New Chorr, Sindh, benefiting over 100 families in Bajeer Mohalla.',
+    images: [
+      './src/Assets/assets_events/project_jal_1.jpg',
+      './src/Assets/assets_events/project_jal_2.jpg'
+    ],
+    category: 'Infrastructure'
+  },
+  {
+    id: '3',
+    title: 'Free Medical Consultation Camp',
+    date: '2024-06-09',
+    description: 'Hosted in Karachi with Tabba Heart Institute, Essa Laboratory, and local organizations.',
+    images: [
+      './src/Assets/assets_events/medical_camp_1.jpg'
     ],
     category: 'Health'
   },
   {
-    id: '2',
-    title: 'Women Entrepreneurship Workshop',
-    date: '2024-03-20',
-    description: 'Interactive session on business skills, financial literacy, and networking opportunities.',
+    id: '4',
+    title: 'Heatstroke Relief & Awareness Camp',
+    date: '2024-06-01',
+    description: '5-day camp at SMBB Trauma Centre, Karachi, serving 10,500 liters of cold water and Rooh Afza.',
     images: [
-      'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'
+      './src/Assets/assets_events/heatstroke_1.jpg',
+      './src/Assets/assets_events/heatstroke_2.jpg'
     ],
-    category: 'Education'
+    category: 'Awareness'
   },
   {
-    id: '3',
-    title: 'Youth Leadership Summit',
-    date: '2024-05-10',
-    description: 'Empowering young leaders through workshops, mentoring sessions, and team-building activities.',
+    id: '5',
+    title: 'Iftar Drive 2024',
+    date: '2024-04-05',
+    description: 'Iftar Drive during the month of Ramadan near the Cantt Station, Karachi.',
     images: [
-      'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'
+      './src/Assets/assets_events/iftar_drive_1.jpg',
+      './src/Assets/assets_events/iftar_drive_2.jpg'
     ],
-    category: 'Youth'
+    category: 'Community Service'
   }
 ];
 
-const categories = ['All', 'Health', 'Education', 'Youth'];
+const categories = [
+  "All",
+  "Community Service",
+  "Infrastructure",
+  "Awareness",
+  "Health",
+];
 
 export default function Events() {
   const [selectedCategory, setSelectedCategory] = useState('All');
