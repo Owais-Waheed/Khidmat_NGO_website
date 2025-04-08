@@ -19,8 +19,8 @@ function App() {
         <Team />
         <Events />
         <Collaborations />
-        <Donations />
         <BookAppointment />
+        <Donations />
         <Footer />
       </div>
     </div>
