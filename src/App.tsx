@@ -15,9 +15,9 @@ function App() {
       <Navbar />
       <div className="pt-16">
         <Hero />
-        <Projects />
         <Team />
         <Events />
+        <Projects />
         <Collaborations />
         <BookAppointment />
         <Donations />
