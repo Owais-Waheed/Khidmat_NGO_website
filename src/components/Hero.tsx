@@ -18,7 +18,7 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-col sm:flex-row sm:justify-start gap-4">
               <a
-                href="#impact"
+                href="#projects"
                 className="inline-flex items-center justify-center px-8 py-3 bg-rose-600 hover:bg-rose-700 text-white text-base font-medium rounded-md shadow-md transition"
               >
                 Explore Our Work

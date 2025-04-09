@@ -19,7 +19,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-rose-500 transition-colors">Home</a></li>
+              {/* <li><a href="#home" className="text-gray-400 hover:text-rose-500 transition-colors">Home</a></li> */}
               <li><a href="#projects" className="text-gray-400 hover:text-rose-500 transition-colors">Projects</a></li>
               <li><a href="#team" className="text-gray-400 hover:text-rose-500 transition-colors">Team</a></li>
               <li><a href="#events" className="text-gray-400 hover:text-rose-500 transition-colors">Events</a></li>
