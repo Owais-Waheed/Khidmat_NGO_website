@@ -8,7 +8,7 @@ const teamMembers: TeamMember[] = [
     name: 'Bhevish Kumar',
     role: 'Core Team Member',
     bio: 'The Strategist: Innovative ideation, strategy, financial estimation, experience & planning made this event possible.',
-    image: './src/Assets/asset_team/Bhevish Kumar.jpg',
+    image: './public/Assets/asset_team/Bhevish Kumar.jpg',
     contact: { email: '' }
   },
   {
@@ -16,7 +16,7 @@ const teamMembers: TeamMember[] = [
     name: 'Jaint Karmani',
     role: 'Core Team Member',
     bio: 'The Allrounder: Available 24/7, physically or virtually. The initiator, planner & executor. Didn’t sleep enough for nights. The MPL was impossible without him',
-    image: './src/Assets/asset_team/Jaint Karmani.jpg',
+    image: './public/Assets/asset_team/Jaint Karmani.jpg',
     contact: { email: '' }
   },
   {
@@ -24,7 +24,7 @@ const teamMembers: TeamMember[] = [
     name: 'Bhunesh Kumar',
     role: 'Core Team Member',
     bio: 'The Cricketing mastermind: Franchise model, squads, ground, lighting, execution & cricket with full spirit. Credit goes to one & only, him. The event wouldn’t have been executed, if he was not there',
-    image: './src/Assets/asset_team/Bhunesh Kumar.jpg',
+    image: './public/Assets/asset_team/Bhunesh Kumar.jpg',
     contact: { email: '' }
   },
   {
@@ -32,7 +32,7 @@ const teamMembers: TeamMember[] = [
     name: 'Sagar Langhani',
     role: 'Core Team Member',
     bio: 'The Management Mastermind: The shields, certificates, food for all, the Funland for kids, and proper accommodation to players & audience with smooth execution till the end, would not have been possible without him.',
-    image: './src/Assets/asset_team/Sagar Langhani.jpg',
+    image: './public/Assets/asset_team/Sagar Langhani.jpg',
     contact: { email: '' }
   },
   {
@@ -40,7 +40,7 @@ const teamMembers: TeamMember[] = [
     name: 'Mahaveer Langhani',
     role: 'Core Team Member',
     bio: 'The Logistics Mastermind: The PSL-inspired jerseys you saw, the cricketing equipment, or anything team at any time, he was one call away. Truly an asset',
-    image: './src/Assets/asset_team/Mahaveer Langhani.jpg',
+    image: './public/Assets/asset_team/Mahaveer Langhani.jpg',
     contact: { email: '' }
   },
   {
@@ -48,7 +48,7 @@ const teamMembers: TeamMember[] = [
     name: 'Neeraj Kumar',
     role: 'Core Team Member',
     bio: 'The Data Scientist: The smooth registration process, the data collection, management, utilization & execution. He was the man behind the screen, not seen too many, but worked hard than many',
-    image: './src/Assets/asset_team/Neeraj Kumar.jpg',
+    image: './public/Assets/asset_team/Neeraj Kumar.jpg',
     contact: { email: '' }
   },
   {
@@ -56,7 +56,7 @@ const teamMembers: TeamMember[] = [
     name: 'Bhawesh Kumar Karmani',
     role: 'Head of Social Media & Graphics',
     bio: ' The eye-pleasing graphics you saw on our page, or the live broadcast themes, he kept you truly updated every minute with his art & skills. Truly an asset',
-    image: './src/Assets/asset_team/Bhawesh Karmani.jpg',
+    image: './public/Assets/asset_team/Bhawesh Karmani.jpg',
     contact: { email: '' }
   },
   {
@@ -64,7 +64,7 @@ const teamMembers: TeamMember[] = [
     name: 'Gavish Vinesh Karmani',
     role: 'Head of Management',
     bio: 'Assigning tasks, allotment of resources & skills required for execution. Gavish was the brain behind it. His hard work & passion paid off!',
-    image: './src/Assets/asset_team/Gavish Karmani.jpg',
+    image: './public/Assets/asset_team/Gavish Karmani.jpg',
     contact: { email: '' }
   }
 ];

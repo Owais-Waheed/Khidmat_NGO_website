@@ -16,7 +16,7 @@ const collaborators: Collaborator[] = [
     name: 'Government Girls Secondary School, Shah Faisal Colony',
     type: 'government',
     description: 'A reputable institution in Karachi dedicated to providing quality education and promoting inclusive learning environments.',
-    logo: 'src/Assets/assets_collaborators/school.jpg',
+    logo: './public/Assets/assets_collaborators/school.jpg',
     projects: ['Teacher Training Workshop: Countering Stereotypes Through Education']
   },
   {
@@ -24,7 +24,7 @@ const collaborators: Collaborator[] = [
     name: 'Tabba Heart Institute',
     type: 'healthcare',
     description: 'A state-of-the-art cardiac hospital in Karachi, renowned for its excellence in cardiovascular care and research.',
-    logo: 'src/Assets/assets_collaborators/tabba.jpg',
+    logo: './public/Assets/assets_collaborators/tabba.jpg',
     projects: ['Free Medical Consultation Camp']
   },
   {
@@ -32,7 +32,7 @@ const collaborators: Collaborator[] = [
     name: 'Dr. Essa Laboratory and Diagnostic Centre',
     type: 'healthcare',
     description: 'A leading clinical laboratory in Pakistan offering a wide range of diagnostic tests and procedures across the country.',
-    logo: 'src/Assets/assets_collaborators/essa.jpg',
+    logo: './public/Assets/assets_collaborators/essa.jpg',
     projects: ['Free Medical Consultation Camp']
   },
   {
@@ -40,7 +40,7 @@ const collaborators: Collaborator[] = [
     name: 'Dr. Ramesh Kumar Vankwani',
     type: 'government',
     description: 'Patron-in-Chief of the Pakistan Hindu Council, dedicated to promoting interfaith harmony and minority rights in Pakistan.',
-    logo: 'src/Assets/assets_collaborators/hindu_council.jpeg',
+    logo: './public/Assets/assets_collaborators/hindu_council.jpeg',
     projects: ['Interfaith Harmony Initiatives']
   },
   {
@@ -48,7 +48,7 @@ const collaborators: Collaborator[] = [
     name: 'Deputy Commissioner South Karachi',
     type: 'government',
     description: 'The administrative head of Karachi South, overseeing development projects and public welfare initiatives in the region.',
-    logo: 'src/Assets/assets_collaborators/Government.jpg',
+    logo: './public/Assets/assets_collaborators/Government.jpg',
     projects: ['Heatstroke Relief & Awareness Camp']
   },
   {
@@ -56,7 +56,7 @@ const collaborators: Collaborator[] = [
     name: 'Aga Khan University (AKU)',
     type: 'educational',
     description: 'An international university committed to improving quality of life through teaching, research, and healthcare initiatives.',
-    logo: 'src/Assets/assets_collaborators/AKU.jpg',
+    logo: './public/Assets/assets_collaborators/AKU.jpg',
     projects: ['Community Health Outreach Programs']
   }
 ];

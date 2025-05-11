@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-            <img src="src\Assets\MAF_logo.jpg" alt="Maheshwari Action Forum Logo" className="h-10 w-10" />
+            <img src="./public/Assets/MAF_logo.jpg" alt="Maheshwari Action Forum Logo" className="h-10 w-10" />
               <span className="ml-2 text-xl font-bold">Maheshwari Action Forum</span>
             </div>
             <p className="text-gray-400">

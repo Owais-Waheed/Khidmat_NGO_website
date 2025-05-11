@@ -9,9 +9,9 @@ const events: Event[] = [
     date: '2025-04-01',
     description: 'Distributed cloths and money at civil hospital Karachi, NICH, and other hospitals as a gratitude of the community service.',
     images: [
-      './src/Assets/assets_events/eid_drive_1.jpg',
-      './src/Assets/assets_events/eid_drive_2.jpg',
-      './src/Assets/assets_events/eid_drive_3.jpg',
+      './public/Assets/assets_events/eid_drive_1.jpg',
+      './public/Assets/assets_events/eid_drive_2.jpg',
+      './public/Assets/assets_events/eid_drive_3.jpg',
     ],
     category: 'Community Service'
   },
@@ -21,8 +21,8 @@ const events: Event[] = [
     date: '2024-07-14',
     description: 'Successful installation of the first Solar Water Pump and Tank in New Chorr, Sindh, benefiting over 100 families in Bajeer Mohalla.',
     images: [
-      './src/Assets/assets_events/project_jal_1.jpg',
-      './src/Assets/assets_events/project_jal_2.jpg'
+      './public/Assets/assets_events/project_jal_1.jpg',
+      './public/Assets/assets_events/project_jal_2.jpg'
     ],
     category: 'Infrastructure'
   },
@@ -32,7 +32,7 @@ const events: Event[] = [
     date: '2024-06-09',
     description: 'Hosted in Karachi with Tabba Heart Institute, Essa Laboratory, and local organizations.',
     images: [
-      './src/Assets/assets_events/medical_camp_1.jpg'
+      './public/Assets/assets_events/medical_camp_1.jpg'
     ],
     category: 'Health'
   },
@@ -42,8 +42,8 @@ const events: Event[] = [
     date: '2024-06-01',
     description: '5-day camp at SMBB Trauma Centre, Karachi, serving 10,500 liters of cold water and Rooh Afza.',
     images: [
-      './src/Assets/assets_events/heatstroke_1.jpg',
-      './src/Assets/assets_events/heatstroke_2.jpg'
+      './public/Assets/assets_events/heatstroke_1.jpg',
+      './public/Assets/assets_events/heatstroke_2.jpg'
     ],
     category: 'Awareness'
   },
@@ -53,8 +53,8 @@ const events: Event[] = [
     date: '2024-04-05',
     description: 'Iftar Drive during the month of Ramadan near the Cantt Station, Karachi.',
     images: [
-      './src/Assets/assets_events/iftar_drive_1.jpg',
-      './src/Assets/assets_events/iftar_drive_2.jpg'
+      './public/Assets/assets_events/iftar_drive_1.jpg',
+      './public/Assets/assets_events/iftar_drive_2.jpg'
     ],
     category: 'Community Service'
   }
