@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="lg:w-1/2 w-full">
           <img
             className="w-full h-96 sm:h-[500px] object-cover rounded-2xl shadow-xl"
-            src="./public/Assets/MAF_cover.png"
+            src="/public/Assets/MAF_cover.png"
             alt="Maheshwari Action Forum in action"
           />
         </div>
