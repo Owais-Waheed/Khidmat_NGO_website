@@ -164,6 +164,15 @@ export default function Events() {
             </div>
           ))}
         </div>
+        
+      </div>
+      <div className="mt-12 text-center">
+        <a
+          href="#book"
+          className="inline-block bg-rose-600 hover:bg-rose-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+        >
+          Want to Volunteer?
+        </a>
       </div>
     </section>
   );
